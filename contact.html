@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Cricket5 Academy</title>
+<meta name="description" content="Book a trial session or get in touch with Cricket5 Academy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo">CRICKET<span>5</span> ACADEMY</a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">MENU</button>
+    <ul class="nav-links mobile-hidden">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="programs.html">Programs</a></li>
+      <li><a href="coaches.html">Coaches</a></li>
+      <li><a href="achievements.html">Achievements</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-primary nav-cta">Book a Trial</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero hero-small">
+    <div class="hero-inner">
+      <span class="eyebrow">Contact</span>
+      <h1>Book a trial or ask a question</h1>
+      <p class="hero-lede">Tell us the age group you're enquiring for and we'll get back with the right program and next available session.</p>
+    </div>
+  </section>
+
+  <div class="seam" role="presentation"></div>
+
+  <section class="section-cream">
+    <div class="container contact-grid">
+
+      <div>
+        <h2>Send an enquiry</h2>
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Parent / Player Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="field">
+            <label for="program">Program of Interest</label>
+            <select id="program" name="program">
+              <option>Junior Starters (Ages 6–9)</option>
+              <option>Development Squad (Ages 10–15)</option>
+              <option>Elite Performance (Ages 16+)</option>
+              <option>Holiday Camp</option>
+              <option>1-on-1 Sessions</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+          <p id="form-status" class="note" style="margin-top:0.8rem;" aria-live="polite"></p>
+        </form>
+        <p class="note">This form doesn't send anywhere yet — connect it to your email, WhatsApp Business, or booking tool to start receiving enquiries.</p>
+      </div>
+
+      <div>
+        <h2>Find us</h2>
+        <div class="contact-detail">
+          <span class="label">Ground</span>
+          <span>Add your ground / academy address here</span>
+        </div>
+        <div class="contact-detail">
+          <span class="label">Phone</span>
+          <span>Add your contact number here</span>
+        </div>
+        <div class="contact-detail">
+          <span class="label">Email</span>
+          <span>Add your academy email here</span>
+        </div>
+        <div class="contact-detail">
+          <span class="label">Hours</span>
+          <span>Add your weekly session timings here</span>
+        </div>
+        <div class="map-placeholder">
+          Map placeholder — embed Google Maps here once your ground address is added
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>Cricket5 Academy</h3>
+        <p>Structured coaching in technique, fitness, game-sense, temperament and teamwork.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="coaches.html">Coaches</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Academy</h3>
+        <ul>
+          <li><a href="contact.html">Contact &amp; Trials</a></li>
+          <li><a href="contact.html">Location &amp; Timings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cricket5 Academy</span>
+      <span>Replace with your ground address, phone &amp; email here</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
